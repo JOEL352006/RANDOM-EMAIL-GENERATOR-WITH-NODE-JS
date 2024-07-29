@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Service</title>
+    <link rel="stylesheet" href="random.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Random Email Generator</h1>
+        <div class="email-section">
+            <button id="generateEmail">Generate Email</button>
+            <p id="email"></p>
+        </div>
+        <div class="otp-section">
+            <button id="sendOtp" disabled>Send OTP</button>
+            <button id="checkInbox" disabled>Check Inbox</button>
+            <div id="loading" class="loading hidden">Loading...</div>
+        </div>
+        <div id="inbox" class="inbox"></div>
+    </div>
+    <script src="random.js"></script>
+</body>
+</html>
